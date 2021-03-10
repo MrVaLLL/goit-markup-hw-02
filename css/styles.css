@@ -1,0 +1,133 @@
+:root {
+  --subtittle-text-color: #757575;
+  --link-color: #2196f3;
+  --site-color: #212121;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+  position: absolute;
+  font-style: normal;
+  font-weight: bold;
+  color: #757575;
+}
+ul {
+  list-style: none;
+}
+
+/* Шапка */
+.page-header {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* WebStudio */
+
+a {
+  text-decoration: none;
+}
+.web {
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+.studio {
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+/*  */
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.link.current {
+  color: var(--link-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--link-color);
+}
+/* contacts */
+.link-mail,
+.link-tel {
+  text-decoration: none;
+  color: var(--subtittle-text-color);
+}
+.link-mail:focus,
+.link-mail:hover {
+  color: var(--link-color);
+}
+
+.link-tel:focus,
+.link-tel:hover {
+  color: var(--link-color);
+}
+/* Эффективные решения - Slogan */
+.slogan {
+  background: #2f303a;
+}
+.slogan-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* заказ услуг кнопка */
+.btn {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: var(--link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.btn-button {
+  text-align: center;
+  padding-left: 25px;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/* Основные Этапы скрыть */
+.title {
+  display: none;
+}
+
+/* преймущества */
+.subtitle {
+  list-style: none;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.subtitle-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--subtittle-text-color);
+}
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
