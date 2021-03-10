@@ -200,6 +200,7 @@ a {
 }
 .button:focus,
 .button:hover {
+  outline: none;
   border: none;
   background-color: var(--link-color);
   color: #ffffff;
