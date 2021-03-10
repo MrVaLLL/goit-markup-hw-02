@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
+  background: #e5e5e5;
   position: absolute;
   font-style: normal;
   font-weight: bold;
@@ -130,4 +130,43 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.desc {
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-command {
+  background: #f5f4fa;
+}
+.footer {
+  background: #2f303a;
+}
+.adress-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.adress-mail {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress-tel {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
