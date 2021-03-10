@@ -147,13 +147,13 @@ a {
   color: #757575;
 }
 
-/* подвал */
+/* Подвал */
 .footer {
   background: #2f303a;
 }
 .adress-text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -162,13 +162,13 @@ a {
 }
 .adress-mail {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .adress-tel {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -179,7 +179,8 @@ a {
 .adress-tel:hover {
   color: var(--link-color);
 }
-/* Portfolio */
+
+/* Portfolio!!!!!!!!!!!!!! */
 
 .button {
   box-shadow: none;
@@ -199,7 +200,6 @@ a {
 }
 .button:focus,
 .button:hover {
-  с
   border: none;
   background-color: var(--link-color);
   color: #ffffff;
@@ -209,13 +209,13 @@ a {
 }
 .contents-name {
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .contents-merch {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
 }
