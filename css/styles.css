@@ -89,6 +89,7 @@ a {
 }
 /* заказ услуг кнопка */
 .btn {
+  font-family: inherit;
   border: none;
   outline: none;
   margin-left: 730px;
@@ -183,6 +184,7 @@ a {
 /* Portfolio!!!!!!!!!!!!!! */
 
 .button {
+  font-family: inherit;
   box-shadow: none;
   border: none;
   cursor: pointer;
