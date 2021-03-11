@@ -26,12 +26,14 @@ a {
   text-decoration: none;
 }
 .web {
+  font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--link-color);
 }
 .studio {
+  font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -39,6 +41,7 @@ a {
 }
 /* footer Studio */
 .studi-o {
+  font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -74,6 +77,10 @@ a {
 .link-tel:hover {
   color: var(--link-color);
 }
+.main-container,
+.section-command {
+  text-align: center;
+}
 /* Эффективные решения - Slogan */
 .slogan {
   background: #2f303a;
@@ -92,7 +99,6 @@ a {
   font-family: inherit;
   border: none;
   outline: none;
-  margin-left: 730px;
   cursor: pointer;
   background: var(--link-color);
 }
@@ -100,8 +106,16 @@ a {
   color: #ffffff;
 }
 /* основные этапы скрыть!!!!!  */
-.title {
-  display: none;
+/* visually-hidden  утилита для убирания текста */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 /* Преймущества подзаголовки- subtitle */
@@ -133,7 +147,7 @@ a {
 .section-command {
   background: #f5f4fa;
 }
-.caption {
+.section-caption {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -141,7 +155,7 @@ a {
   color: #212121;
 }
 /* Описание работы desc */
-.desc {
+.section-desc {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
@@ -184,6 +198,7 @@ a {
 /* Portfolio!!!!!!!!!!!!!! */
 
 .button {
+  text-align: center;
   font-family: inherit;
   box-shadow: none;
   border: none;
