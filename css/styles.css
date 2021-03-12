@@ -8,7 +8,6 @@ body {
   font-family: 'Roboto', sans-serif;
   background: #ffffff;
   font-style: normal;
-  font-weight: bold;
   color: #757575;
 }
 ul {
@@ -70,6 +69,11 @@ a {
 .link-mail,
 .link-tel {
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+
   color: var(--subtittle-text-color);
 }
 
@@ -77,10 +81,7 @@ a {
 .link-tel:hover {
   color: var(--link-color);
 }
-.main-container,
-.section-command {
-  text-align: center;
-}
+
 /* Эффективные решения - Slogan */
 .slogan {
   background: #2f303a;
@@ -96,12 +97,19 @@ a {
 }
 /* заказ услуг кнопка */
 .btn {
+  width: 200px;
+  height: 50px;
   font-family: inherit;
   border: none;
   outline: none;
   cursor: pointer;
   background: var(--link-color);
 }
+.btn:focus,
+.btn:hover {
+  background-color: #188ce8;
+}
+/* цвет текста в кнопке */
 .btn-button {
   color: #ffffff;
 }
@@ -148,6 +156,7 @@ a {
   background: #f5f4fa;
 }
 .section-caption {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -167,6 +176,7 @@ a {
   background: #2f303a;
 }
 .adress-text {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -176,12 +186,14 @@ a {
   color: aquamarine;
 }
 .adress-mail {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .adress-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
